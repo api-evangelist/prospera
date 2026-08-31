@@ -72,6 +72,11 @@ x-enrichment:
   artifacts_added: 1
   pass: local-v1
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/valmont-industries/
+  name: Valmont Industries
+  x-relationship: acquired
+  x-evidence: "Backed by Bessemer Venture Partners, Cisco and Qualcomm, Prospera was acquired by Valmont Industries for roughly $300M in 2021 and its technology was folded into Valmont's Valley Insights and the Valley 365 connected crop-management platfor"
 - type: DomainSecurity
   url: security/prospera-domain-security.yml
 - type: Website
